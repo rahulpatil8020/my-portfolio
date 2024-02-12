@@ -1,9 +1,8 @@
-import Image from "next/image";
 import React from "react";
 import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
-
+import Image from "next/image";
 const Hero = () => {
   return (
     <div className="h-[85vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
@@ -34,7 +33,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center">
+        <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
           <Image
             src="/images/u1.jpg"
             alt="user"
