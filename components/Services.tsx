@@ -25,7 +25,7 @@ const Services = () => {
               I specialize in frontend development using React with TypeScript.
               With expertise in crafting dynamic user interfaces, I ensure every
               project is built on a foundation of robust code and seamless
-              functionality. Whether it's leveraging CSS frameworks like
+              functionality. Whether it&apos;s leveraging CSS frameworks like
               Tailwind CSS or implementing custom styles with CSS-in-JS
               solutions, I strive to deliver visually stunning and highly
               responsive web applications that exceed client expectations.
