@@ -7,7 +7,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="pt-[8rem] pb-[4rem] bg-[#02050a] ">
+    <div id="contact" className="pt-[8rem] pb-[4rem] bg-[#02050a] ">
       <div className="grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto gap-[3rem] ">
         <div className="flex items-center space-x-6">
           <div className="md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#55e6a5] ">
@@ -38,7 +38,9 @@ const Footer = () => {
           <div className="text-[25px] mb-[0.2rem] font-semibold text-white">
             <h1>Email Me At</h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
-              rahuldpatil20@gmail.com
+              <a href="mailto:rahuldpatil20@gmail.com">
+                rahuldpatil20@gmail.com
+              </a>
             </p>
           </div>
         </div>
