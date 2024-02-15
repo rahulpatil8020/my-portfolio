@@ -10,7 +10,7 @@ const SkillsLanguage = ({ skills, levels }: Props) => {
     <div>
       {skills.map((skill, index) => {
         return (
-          <div className="relative mb-[3rem] ">
+          <div key={index} className="relative mb-[3rem] ">
             <h1 className="p-5 w-[100%] uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold">
               {skill}
             </h1>
